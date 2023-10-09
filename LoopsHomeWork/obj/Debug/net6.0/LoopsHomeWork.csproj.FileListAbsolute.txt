@@ -1,0 +1,14 @@
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\bin\Debug\net6.0\LoopsHomeWork.exe
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\bin\Debug\net6.0\LoopsHomeWork.deps.json
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\bin\Debug\net6.0\LoopsHomeWork.runtimeconfig.json
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\bin\Debug\net6.0\LoopsHomeWork.dll
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\bin\Debug\net6.0\LoopsHomeWork.pdb
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\LoopsHomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\LoopsHomeWork.AssemblyInfoInputs.cache
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\LoopsHomeWork.AssemblyInfo.cs
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\LoopsHomeWork.csproj.CoreCompileInputs.cache
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\LoopsHomeWork.dll
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\refint\LoopsHomeWork.dll
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\LoopsHomeWork.pdb
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\LoopsHomeWork.genruntimeconfig.cache
+C:\Users\sefer\OneDrive\Desktop\LoopsHomeWork\LoopsHomeWork\obj\Debug\net6.0\ref\LoopsHomeWork.dll
