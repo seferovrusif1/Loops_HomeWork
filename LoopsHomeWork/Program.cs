@@ -11,9 +11,11 @@
             //for (; true;)      // bu for sadece daha rahat yoxlamaq ucundur alqoritme daxil deyil
             //{
             //    int num = Convert.ToInt32(Console.ReadLine());
+            //    int say = 0;
             //    string iscomplex = "";
-            //    for (int i = 3; i < num; i++)
+            //    for (int i = 3; i <= num/3; i++)
             //    {
+            //        say += 1;
             //        if (num % i == 0)
             //        {
             //            iscomplex = "murekkeb ededdir!";
@@ -25,10 +27,14 @@
             //        }
             //        i++;
             //    }
+            //    say += 1;
+
             //    if (num % 2 == 0)
             //    {
             //        iscomplex = "murekkeb ededdir!";
             //    }
+            //    say += 1;
+
             //    switch (num)
             //    {
             //        case 0:
@@ -37,11 +43,102 @@
             //            break;
             //        case 2:
             //        case 3:
+            //        case 7:
             //            iscomplex = "sade ededdir!";
             //            break;
             //    }
-            //    Console.WriteLine(iscomplex);
+            //    Console.WriteLine(iscomplex+" "+ say);
             //}
+
+
+
+
+
+            ////en optimal variant
+            ///
+
+
+            //for (; true;)      // bu for sadece daha rahat yoxlamaq ucundur alqoritme daxil deyil
+            //{
+            //    int num = Convert.ToInt32(Console.ReadLine());
+            //    int say = 0;
+            //    string iscomplex = "";
+            //    for (int i = 3; i <= num / 3; i+=2)
+            //    {
+            //        if (num % 2 == 0)
+            //        {
+            //            iscomplex = "murekkeb ededdir!";
+            //        }
+            //        else
+            //        {
+            //            switch (num)
+            //            {
+            //                case 0:
+            //                case 1:
+            //                    iscomplex = "ne sade nede murekkeb ededdir!";
+            //                    break;
+            //                case 2:
+            //                case 3:
+            //                case 7:
+            //                    iscomplex = "sade ededdir!";
+            //                    break;
+            //            }
+            //        }
+            //        if (num % i == 0)
+            //        {
+            //            iscomplex = "murekkeb ededdir!";
+            //            break;
+            //        }
+
+            //    }
+
+            //}
+
+
+
+
+
+
+            for (; true;)      // bu for sadece daha rahat yoxlamaq ucundur alqoritme daxil deyil
+            {
+                int num = Convert.ToInt32(Console.ReadLine());
+                string iscomplex = "";
+                if (num % 2 != 0 || num== 0 || num == 1 || num == 2 || num == 3 || num == 7) //bura bele deyildi
+                {
+                    for (int i = 3; i * i <= num; i += 2)
+                    {
+                        if (num % i == 0)
+                        {
+                            iscomplex = "murekkeb ededdir!";
+                            break;
+                        }
+                        else
+                        {
+                            iscomplex = "Sade ededdir!"; ///bura yox idi
+                        }
+                    }
+                }
+                else
+                    {
+                        iscomplex = "Murekkeb ededdir!";
+                    }
+                switch (num)  ///switch yox idi
+                {
+                    case 0:
+                    case 1:
+                        iscomplex = "Ne sade nede murekkeb ededdir!";
+                        break;
+                    case 2:
+                    case 3:
+                    case 5:
+                    case 7:
+                        iscomplex = "Sade ededdir!";
+                        break;
+                }
+                Console.WriteLine(iscomplex);
+            }
+
+
 
 
             // Nisbeten yavas  ama biraz qisa- Ededin sade ve ya murekkeb oldugunun tapilmasi 
